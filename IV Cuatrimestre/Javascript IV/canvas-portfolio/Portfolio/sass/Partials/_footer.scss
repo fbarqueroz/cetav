@@ -1,0 +1,83 @@
+
+.footer {
+
+  background-color: $blue ;
+  color: #ffffff ;
+
+  a {
+
+    color: #ffffff ;
+    text-decoration: none ;
+  }
+
+  li {
+
+    list-style: none ;
+  }
+
+  body.dark & {
+    background-color: $med-blue ;
+  }
+}
+
+.foo-info {
+
+  display: inline-block ;
+  font-size: 1rem ;
+  font-weight: bold ;
+  margin-left: 40px ;
+  padding-top: 56px ;
+  width: 290px ;
+
+  h3 {
+
+    font-size: 2.25rem ;
+  }
+}
+
+.foo-form {
+
+  float: right ;
+  margin-right: 48px ;
+  padding-bottom: 100px ;
+
+
+  input {
+
+    background-color: #ffffff ;
+    border: 1px solid #ffffff;
+    border-radius: 5px ;
+    height: 42px ;
+    margin-bottom: 36px ;
+    width: 446px ;
+  }
+
+  button {
+
+    background-color: $med-blue ;
+    border: none ;
+    border-radius: 12px ;
+    color: #ffffff ;
+    font-weight: bold ;
+    padding: 13px 25px 13px 25px ;
+
+    body.dark & {
+      background-color: $blue ;
+    }
+  }
+
+  h4 {
+    font-size: 2.25rem ;
+  }
+}
+
+.soc-media {
+
+  margin-top: 200px ;
+}
+
+.mensaje-error {
+  h2 {
+    font-size: 1.125rem ;
+  }
+}

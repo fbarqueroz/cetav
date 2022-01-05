@@ -1,0 +1,37 @@
+
+.main-repo-info {
+
+  color: #000000 ;
+  margin-top: 180px ;
+  margin-bottom: 185px ;
+  text-align: center ;
+
+  h2 {
+
+    font-size: 4rem ;
+  }
+
+  p {
+
+    font-size: 1.5rem ;
+  }
+
+  body.dark & {
+
+    color: #ffffff ;
+  }
+}
+
+.fetchContent__dir li {
+  list-style: none ;
+  font-size: 18px ;
+  font-weight: bold ;
+  padding: 5px 5px 5px 5px ;
+  border: solid 2px #034078;
+  margin: 0 10px 10px 10px ;
+
+  body.dark & {
+
+    color: #ffffff ;
+  }
+}

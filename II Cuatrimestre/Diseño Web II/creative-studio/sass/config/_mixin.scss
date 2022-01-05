@@ -1,0 +1,58 @@
+//
+// Mixin
+//
+
+$black: #090909;
+$gray: #5d5d5d;
+$light-gray: #f4f4f4;
+
+@mixin body{
+	font-family: Arial, Helvetica, sans-serif;
+	border-top: 17px solid $black;
+	margin: 0;
+	background-color: $light-gray;
+}
+
+body {
+    @include body;
+}
+
+
+@mixin comp{
+	color: $black;
+	padding-bottom: 12px;
+	background-repeat: no-repeat;
+}
+
+@mixin h2{
+	font-size: 18px;
+	padding-left: 30px;
+	background-position: 0 7px;
+}
+
+h2 {
+    @include h2();
+    @include comp();
+}
+
+@mixin h3{
+	font-size: 12px;
+	padding-left: 23px;
+	background-size: 8px;
+	background-position: 0 5px;
+}
+
+h3 {
+    @include h3();
+    @include comp();
+}
+@mixin p{
+	color: $gray;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+p {
+    @include p();
+    @include comp();
+}

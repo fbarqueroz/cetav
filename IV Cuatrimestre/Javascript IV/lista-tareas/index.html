@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="public/css/styles.css">
+  <title>Lista de tareas</title>
+</head>
+<body>
+  <form id="new-task-form" class="new-task-form">
+    <select class="dw-categories">
+      <option value="🎓">Study</option>
+      <option value="🏠">Home</option>
+      <option value="💼">Work</option>
+      <option value="✈">Travel</option>
+      <option value="⭐">Others</option>
+    </select>
+    <input id="new-task-input" type="text" required>
+    <button type="submit" id="btn-submit">Agregar</button>
+  </form>
+  <ul id="task-list" class="task-list">
+    <!-- Las tareas van acá -->
+  </ul>
+  <button type="button" id="btn-delete">Remove all checked</button>
+  <script src="js/script.js"></script>
+</body>
+</html>

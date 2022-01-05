@@ -1,0 +1,47 @@
+/*Banner*/
+
+#banner11 {
+    width: 80%;
+    top: 25%;
+    left: 130px;
+    position: absolute;
+    color: #fff;
+}
+
+#banner-paragraph {
+    width: 50%;
+    float: left;
+}
+
+#banner-paragraph h1 {
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+}
+
+#banner-paragraph p {
+    font-size: 15px;
+    width: 650px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color: #919191;
+}
+
+#banner-img {
+    width: 50%;
+    float: right;
+}
+
+#banner-img img {
+    width: 100%;
+    padding-left: 50px;
+    margin-top: -20px;
+}
+
+small {
+    margin-left: 40px;
+    font-size: 12px;
+    color: #19dafa;
+    letter-spacing: 3px;
+}

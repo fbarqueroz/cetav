@@ -1,0 +1,46 @@
+//estilos del header global
+.header{
+
+  background-color: $blue ;
+  height: 64px ;
+
+  body.dark & {
+
+    background-color: $med-blue ;
+  }
+}
+
+.header-list{
+
+  float: right ;
+  padding-right: 40px ;
+
+}
+
+.header-list-nav {
+
+  li{
+
+    float: left ;
+    list-style: none ;
+
+    a{
+      color: #ffffff ;
+      font-size: 0.875rem ;
+      text-decoration: none ;
+    }
+  }
+  li+li{
+
+    margin-left: 70px ;
+  }
+}
+
+.header-logo img{
+
+  float: left ;
+  height: 70px ;
+  margin: 0 ;
+  padding-left: 70px ;
+  width: 78px ;
+}

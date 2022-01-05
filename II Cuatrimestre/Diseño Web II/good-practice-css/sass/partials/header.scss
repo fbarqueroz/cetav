@@ -1,0 +1,36 @@
+/*Header*/
+
+#nav_ul {
+    display: inline-flex;
+    margin: 50px;
+
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    li {
+        list-style: none;
+        margin: 0 20px;
+        cursor: pointer;
+    }
+}
+
+
+
+.login {
+    top: 40px;right: 80px;
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background-image: linear-gradient(#42455a, #42455a), radial-gradient(circle at top left, #fd00da, #19d7f8);
+    background-origin: border-box;background-clip: content-box,border-box;
+
+    span {
+        display: block;
+        padding: 8px 22px;
+        }
+}
+

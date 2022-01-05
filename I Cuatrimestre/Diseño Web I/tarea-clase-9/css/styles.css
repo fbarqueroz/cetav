@@ -1,0 +1,103 @@
+
+/* Clase 9 */
+
+/*#monkey {
+    background-image: url(https://estudiograficamente.com/wp-content/uploads/2018/02/980ce456614465.59b62d29c6c94-1024x576.jpghttps://image.freepik.com/free-vector/background-flat-autumn-landscape_23-2148237785.jpghttps://cdn.dribbble.com/users/2150975/screenshots/7886285/media/560cd33dba706a187e18c767d72464be.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+#father {
+    margin: 0 auto;
+    width: 1000px;
+    height: 500px;
+    font-size: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table
+}
+
+#header {
+    background-color: coral;
+    height: 100px;
+}
+
+#top {
+    background-color: yellowgreen;
+    height: 500px;
+    float: left;
+    width: 250px;
+    position: relative;
+}
+
+#bottom {
+    background-color: blueviolet;
+    height: 500px;
+    float: left;
+    width: 250px;
+    position: relative;
+}
+
+#right {
+    background-color: darkcyan;
+    height: 500px;
+    float: left;
+    width: 250px;
+    position: relative;
+    color: white;
+}
+
+#left {
+    background-color: goldenrod;
+    height: 500px;
+    float: left;
+    width: 250px;
+    position: relative;
+}
+
+#carrot {
+    background-color: hotpink;
+    height: 350px;
+    float: left;
+    width: 500px;
+}
+
+#lettuce {
+    background-color: crimson;
+    height: 350px;
+    float: left;
+    width: 500px;
+}
+
+#footer {
+    background-color: coral;
+    height: 50px;
+    width: 1000px;
+}
+
+#top1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#bottom1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#right1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#left1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

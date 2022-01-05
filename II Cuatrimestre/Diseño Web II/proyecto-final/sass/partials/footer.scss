@@ -1,0 +1,33 @@
+/*Footer*/
+
+.footer{
+    background-color: #EAEEF1;
+    padding-top: 2.375%; 
+    padding-bottom: 2.375%;
+    padding-right: 5%; 
+    padding-left: 5%;
+
+    p{
+        @include fontRaleway;
+        font-weight: bold;
+        font-size: 1em;
+        color: #000000;
+        float:left;
+        width: 50%;
+    }
+}
+
+.footer-list{
+    float: right;
+    width:50%;
+    margin-top: 0; 
+    margin-bottom: 0;
+    padding-left: 0;
+
+    li{
+        list-style: none;
+        text-decoration: none;
+        float: left;
+        margin-left: 7%;
+    }
+}

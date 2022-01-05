@@ -1,0 +1,33 @@
+body {
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #413431;
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+    position: absolute;
+    padding-top: 300px;
+}
+
+h2 {
+    color: #7C8931;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*Helpers*/
+
+.clearfix::after {
+	content: "";
+	clear: both;
+    display: table; 
+}

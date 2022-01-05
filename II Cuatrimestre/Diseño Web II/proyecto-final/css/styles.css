@@ -1,0 +1,244 @@
+/*Styles sheet*/
+/*config*/
+/*Global*/
+.wrapper {
+  width: 1600px;
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+  position: relative; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+/*Left Block*/
+.l1_title {
+  margin-left: 70px; }
+
+.l1_content {
+  margin-left: 70px; }
+
+.l2_title {
+  margin-left: 70px; }
+
+.l2_title {
+  margin-left: 70px; }
+
+.reason_block_l2 {
+  margin-left: 70px; }
+
+/*Right Block*/
+.title_r1 {
+  margin-left: 70px; }
+
+.content_r1 {
+  margin-left: 70px; }
+
+.title_r2 {
+  margin-left: 70px; }
+
+.content_r2 {
+  margin-left: 70px; }
+
+.subs-content h4 {
+  font-family: 'Raleway', sans-serif; }
+
+/*Partials*/
+/*Header*/
+.header {
+  background-image: url(../img/header-bear.jpg);
+  height: 1000px; }
+
+.header_logo img {
+  width: 200px;
+  height: 80px;
+  padding-top: 3.125%;
+  padding-left: 12.5%; }
+
+.header_title {
+  color: #FFFFFF;
+  margin: 0; }
+
+.header_title h1 {
+  font-size: 220px;
+  float: right;
+  margin: 0; }
+
+.header_title p {
+  font-size: 64px;
+  float: right;
+  margin: 0; }
+
+.header_text {
+  color: #FFFFFF;
+  font-family: 'Raleway', sans-serif; }
+
+/*Main*/
+.main_content {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder; }
+
+.main_title {
+  text-align: center;
+  font-size: 60px;
+  font-weight: lighter; }
+
+.main_p1 {
+  font-weight: bold; }
+
+.main_hr {
+  margin: 0% 47.313% 3.75% 47.438%;
+  border: solid #000000 2px; }
+
+/*Pink Block*/
+.pink_block {
+  background-color: #FFDDD5; }
+
+.pink_block_content {
+  font-size: 36px;
+  color: #000000;
+  text-align: left;
+  float: left;
+  padding-top: 12.5%;
+  padding-left: 6.875%; }
+
+.pink_p {
+  font-size: 36px;
+  font-weight: bold; }
+
+.pink_block_img img {
+  display: block;
+  float: right;
+  width: 50%;
+  height: 37.81%; }
+
+.pink_author {
+  padding-top: 4.06%; }
+
+/*Reason to be happy*/
+.reasons_block_title {
+  font-size: 3.75em;
+  margin-left: 6.25%; }
+
+.reasons_block_left {
+  float: left;
+  width: 43.75%;
+  padding-left: 6.25%; }
+
+.reason_block_right {
+  float: right;
+  width: 43.75%;
+  padding-right: 6.25%; }
+
+.reasons_block_l1 {
+  border: solid 1px #DCDCDC;
+  height: 290px; }
+
+.reasons_block_l2 {
+  border: solid 1px #DCDCDC;
+  height: 290px; }
+
+.reason_block_r1 {
+  border: solid 1px #DCDCDC;
+  height: 290px; }
+
+.reason_block_r2 {
+  border: solid 1px #DCDCDC;
+  height: 290px; }
+
+.reason_button a {
+  text-align: center;
+  text-decoration: none; }
+
+/*Buy Poster Prints*/
+suit_img {
+  background-image: url(../img/suit.png); }
+
+/*Subscribe*/
+.box {
+  float: left;
+  width: 25%;
+  margin: 0; }
+  .box p {
+    color: #000000;
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 3.438%;
+    padding-right: 40.38%;
+    line-height: 255%; }
+
+.box_ul {
+  list-style: none;
+  color: #000000;
+  font-size: 1em;
+  margin-bottom: 3.438%;
+  padding-right: 40.38%;
+  line-height: 255%;
+  text-decoration: none; }
+  .box_ul ul {
+    margin-top: 0; }
+  .box_ul li {
+    font-size: 1em;
+    padding-bottom: 7.188%;
+    color: #000000;
+    font-weight: bold; }
+
+.subscribe_content {
+  list-style: none; }
+  .subscribe_content a {
+    color: #000000; }
+  .subscribe_content h4 {
+    padding-top: 8.64%;
+    padding-bottom: 4%;
+    font-size: 1.3em; }
+  .subscribe_content form {
+    padding-right: 20.38%;
+    margin-bottom: 2.063%; }
+
+.submit_text {
+  background-color: #EAEEF1;
+  color: #A9A9A9;
+  font-weight: bold;
+  border: none;
+  width: 340px;
+  height: 39px;
+  margin-bottom: 5.125%;
+  padding-left: 15px;
+  font-size: 15px;
+  font-weight: lighter; }
+
+.submit_button {
+  width: 130px;
+  height: 40px;
+  background: none;
+  border: solid 1px #000000;
+  border-radius: 4px; }
+
+/*Footer*/
+.footer {
+  background-color: #EAEEF1;
+  padding-top: 2.375%;
+  padding-bottom: 2.375%;
+  padding-right: 5%;
+  padding-left: 5%; }
+  .footer p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    color: #000000;
+    float: left;
+    width: 50%; }
+
+.footer-list {
+  float: right;
+  width: 50%;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0; }
+  .footer-list li {
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    margin-left: 7%; }

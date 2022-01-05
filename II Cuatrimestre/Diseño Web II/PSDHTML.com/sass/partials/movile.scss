@@ -1,0 +1,27 @@
+@media (max-width:777px) {
+    body {
+    background-color: lightpink;
+    }
+
+    .left_column {
+        float: none;
+        width: 300px;
+    }
+    
+    .right_column {
+        float: none;
+        width: 300px;
+    }
+
+    .header_list {
+        display: none;
+    }
+
+    .leader1_p {
+        width: 300px;
+    }
+
+    .leader2_p{
+        width: 300px;
+    }
+}

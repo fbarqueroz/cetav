@@ -1,0 +1,167 @@
+
+/*news letter*/
+
+.newsletter {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    background-color: $containerColor;
+}
+
+.newsletter_content a {
+    color: #40ACEB;
+}
+
+.newsletter_button {
+    button {
+        background-color: #7BB84F;
+        @include button;
+        border: none ;
+        color: white;
+    }
+}
+
+/*Free book*/
+
+.free_book {
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    background-color: $containerColor;
+}
+
+.free_book_content a {
+    color: $ancord_blue;
+}
+
+.free_book_button {
+    button {
+        background-color: #F5BA1C;
+        @include button;
+        border: none ;
+        color: white;
+    }
+}
+
+/*Our Newroom*/
+
+.our_newroom {
+    background-color: $containerColor;
+    padding-bottom: 15px;
+}
+
+.our_newroom_content {
+    img {
+    display: block;
+    height: 250px;
+    width: 300px;
+    }
+
+    h5{
+        color: white;
+        margin: 0;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        padding: 30px 20px 50px 40px;
+        line-height:1.25rem;
+        font-size: 0.875rem;
+        margin: 0;
+        color: white;
+    }
+}
+
+.our_newroom_button {
+    button {
+        background-color: #40ACEB;
+        @include button;
+        color: white;
+        border: none;
+    }
+}
+
+/*Our Gallery*/
+
+.our_gallery {
+    background-color: #292C34;
+    padding-bottom: 25px;
+    padding-bottom: 15px;
+}
+
+.our_gallery_img {
+    padding-left: 40px;
+
+    img {
+        text-align: center;
+        width: 160px;
+        height: 160px;
+        padding: 5px;
+    }
+}
+
+
+.our_gallery_button {
+    background-color: #F9F9F9;
+    @include button
+}
+
+.our_gallery_button a {
+    color: black;
+}
+
+/*Special Offer*/
+
+.special_offer {
+    background-color: $containerColor;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+
+.special_offer_button {
+    button {
+        width: 232px;
+        height: 62px;
+        text-align: center;
+        border-radius: 2px;
+        margin-left: 190px;
+        margin-top: 35px;
+        background-color: #E02D74;
+        font-size: 17px;
+        color: white;
+        font-family: $fonts;
+        border: none;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 13px;
+        margin-top: 14px;
+        color: white;
+    }
+}
+
+.left_column {
+    float: left;
+    width: 300px;
+}
+
+.right_column {
+    float: right;
+    width: 300px;
+}
+
+.muckup_p {
+    background-color: #76B3DD;
+}
+
+.magazine_p {
+    background-color: #76B3DD;
+}
+
+.leader1_p {
+    background-color: #0071BD;
+}
+
+.leader2_p {
+    background-color: #333C4D;
+}

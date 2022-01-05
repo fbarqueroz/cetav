@@ -1,0 +1,157 @@
+/*Global*/
+
+h1 {
+    margin: 0;
+    font-family: 'Pangolin', cursive;
+    color: #9C89B8;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+body {
+    background-color: #F1F2F8;
+    font-family: 'Comfortaa', cursive;
+}
+
+li {
+    list-style: none;
+
+}
+
+img {
+    max-width: 100%;
+    padding-bottom: 10px;
+}
+
+.movie_list p{
+    padding-left: 15px;
+}
+
+.movie_list img {
+    margin: 0;
+    display: block;
+    border-radius: 30px;
+}
+
+.movie_description {
+    font-family: 'Comfortaa', cursive;
+    color: #E59ED7;
+}
+
+/*Helpers*/
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#form {
+    padding-left: 20px;
+}
+
+#search {
+    background-color: #F0E6EF;
+    border: solid 1px #E59ED7;
+    border-radius: 3px;
+}
+
+#search:hover {
+    background-color: #E8D9E7;
+}
+
+#search:active {
+    background-color: #D9BFD7;
+}
+
+.wrapper {
+    background-color: #F0E6EF;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    border-color: #9C89B8;
+    border-radius: 7px;
+    border: 3px solid #9C89B8;
+}
+
+/*Header*/
+
+.header_img img {
+    width: 4%;
+    height: 4%;
+    display: block;
+    float: right;
+    padding-right: 15px;
+}
+
+#search_buttom {
+    background-color: #B8BEDD;
+    border-style: none;
+    padding: 6px 12px 6px 12px;
+    border-radius: 4px;
+}
+
+#search_buttom:hover {
+    background-color: #919ACA;
+}
+
+#search_buttom:active {
+    background-color: #495697;
+}
+
+/*Load More button*/
+
+#load_more {
+    background-color: #EFC3E6;
+    border-style: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+#load_more:hover {
+    background-color: #E59ED7;
+}
+
+#load_more:active {
+    background-color: #E15197;
+}
+
+/*Modal*/
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+  /* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -1,0 +1,27 @@
+//
+// Global
+//
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.wrapper{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.block-border {
+	padding: 20px 0 15px;
+	border-bottom: 1px solid #c0c0c0; }
+
+.title-border-bottom{
+	border-bottom: 6px solid #090909;
+}
+
+#slider img {
+	max-width: 100%;
+	width: 100%;
+}

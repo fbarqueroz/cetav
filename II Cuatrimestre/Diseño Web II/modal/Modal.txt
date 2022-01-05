@@ -1,0 +1,16 @@
+Modal
+En el diseño de la interfaz de usuario para aplicaciones informáticas, una ventana modal es un elemento de control gráfico subordinado a la ventana principal de una aplicación. Crea un modo que deshabilita la ventana principal, pero la mantiene visible, con la ventana modal como una ventana secundaria frente a ella, algunos ejemplos aplicados a una página web son las siguientes:
+Tienen diversas funciones en la cual se puede representar de diversas formas. Por ejemplo:
+- Solicitar cookies para almacenar datos
+https://www.samsung.com/latin/
+https://www.hyundaicr.com
+https://www.huawei.com/es/
+
+- Solicitar la ubicación al usuario
+https://www.rappi.co.cr/restaurantes/mcdonalds?utm_campaign=GSEMV_REACH_WEB_REST_CR_SEM_CR.0.03.1038%20-%20CR%20-%20McDonalds&utm_source=google&gclid=Cj0KCQjwk8b7BRCaARIsAARRTL5ClW7LOHpzQdfN2pB83ILW_NAbk-yf_X6PHT-ZLHlrX6iALHaQlF4aAuOtEALw_wcB
+
+- Documentación:
+https://www.w3schools.com/howto/howto_css_modals.asp
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLDialogElement/showModal
+
+Presentacion: https://www.powtoon.com/s/bE24lohK8Pe/1/m

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Good practices HTML">
+    <meta name="name" content="Fabian Barquero's form practice 🍕">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Good practices HTML</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Formulario</h1>
+        <div class="form">
+            <div class="form_content">
+                <form action="#">
+                    <div class="form_info_user">
+
+                        <h2>Account</h2>
+
+                        <!--Account information-->
+
+                        <div class="user_box">
+                            <div class="user_box_img">
+                                <img src="img/img-1.png" alt="user" id="name" class="form_icon">
+                            </div>
+                            <input type="text" name="name" id="user" value="Full Name" class="user_count">
+                        </div>
+                        
+                        <div class="user_box">
+                            <div class="user_box_img">
+                                <img src="img/img-2.png" alt="e-mail" class="form_icon">
+                            </div>
+                            <input type="text" value="E-mail" name="e-mail" id="e-mail" class="user_count">
+                        </div>
+
+                        <div class="user_box">
+                            <div class="user_box_img">
+                                <img src="img/img-3.png" alt="Password" class="form_icon">
+                            </div>
+                            <input type="text" value="Password" name="Password" id="password" class="user_count">
+                        </div>
+                    </div>
+                    
+                    <!--Date of birth-->
+                    
+                    <div class="date clearfix">
+                        <h2>Date of Birth</h2>
+                        <input type="date" name="Date" id="date" class="user_count">
+                    </div>
+                    
+                    <!--Gender-->
+                    
+                    <div class="gender clearfix">
+                        <h2>Gender</h2>
+                        <!--Male button-->
+                        <div class="gender_button">
+                            <input type="radio" value="Male" id="male">
+                            <label for="Male">Male</label>
+                        </div>
+                        <!--Female button-->
+                        <div class="gender_button">
+                            <input type="radio" value="Female" id="female">
+                            <label for="Female">Female</label>
+                        </div>
+                    </div>
+
+                    <!--Payment Details-->
+
+                    <div class="payment clearfix">
+                        <h2>Payment Details</h2>
+                        <button class="payment-methood">
+                            <img src="img/visa.png" alt="Visa" class="visa">
+                            <label for="credit card" class="payment_label">Creadit Card</label>
+                        </button>
+
+                        <button class="payment-methood">
+                            <img src="img/paypal.png" alt="Paypal" class="paypal">
+                            <label for="paypal" class="payment_label">Paypal</label>
+                        </button>
+                    </div>
+
+                    <!--Card Information-->
+
+                    <div class="card_info">
+                        <div class="card_info_img">
+                            <img src="img/img-4.png" alt="Card Number" class="form_icon">
+                        </div>
+                        <input type="text" value="Card Number" id="card_number" class="user_count">
+                    </div>
+                    <div class="card_info">
+                        <div class="card_info_img">
+                            <img src="img/img-5.png" alt="Lock card" class="form_icon">
+                        </div>
+                        <input type="text" value="CVV" id="card_cvv" class="user_count">
+                    </div>
+                    <div class="card_date">
+                        <input type="date" name="Card Date" id="card_date" class="user_count">
+                    </div>
+
+                    <!--Terms and conditions-->
+
+                    <div class="terms">
+                        <h2>Terms and Conditions</h2>
+                        <input type="checkbox" value="terms & conditions" id="terms">
+                        <label for="terms_and_conditions" class="terms_text">Yes I accept the terms and conditions of signing up to this service and have read the privacy pilicy regarding the storing my information.</label>
+                    </div>
+                    <button value="sumbit" type="submit" class="sing_up">Sing Up</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

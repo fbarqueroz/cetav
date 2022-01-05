@@ -1,0 +1,41 @@
+@import '../config/_settings';
+
+
+.wrapper {
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table; 
+}
+
+.fila {
+    div {
+    float: left;  
+    width: $size;
+    height:$size;
+    }
+}
+
+
+.par{
+    div:nth-child(even) {
+        background-color: $black; 
+    }
+    div:nth-child(odd){
+        background-color: $white;
+    }
+}
+
+.impar{
+    div:nth-child(odd) {
+        background-color: $black;
+    }
+    div:nth-child(even){
+        background-color: $white;
+    }
+}

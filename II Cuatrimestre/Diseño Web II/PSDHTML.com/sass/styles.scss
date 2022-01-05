@@ -1,0 +1,14 @@
+// Sass style sheet
+
+//config folder
+@import "config/mixin.scss";
+@import "config/global.scss";
+
+//Partials
+@import "partials/header.scss";
+@import "Partials/main.scss";
+@import "partials/footer.scss";
+
+//Media
+@import 'partials/tablet.scss';
+@import 'partials/movile.scss';

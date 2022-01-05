@@ -1,0 +1,26 @@
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+  padding-top: 20px; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+.fila div {
+  float: left;
+  width: 80px;
+  height: 80px; }
+
+.par div:nth-child(even) {
+  background-color: #000000; }
+
+.par div:nth-child(odd) {
+  background-color: #FFFFFF; }
+
+.impar div:nth-child(odd) {
+  background-color: #000000; }
+
+.impar div:nth-child(even) {
+  background-color: #FFFFFF; }

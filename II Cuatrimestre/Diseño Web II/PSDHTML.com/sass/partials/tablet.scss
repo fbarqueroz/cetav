@@ -1,0 +1,28 @@
+@media (max-width: 1023px) {
+    body {
+    background-color: lightgreen;
+    }
+
+    .header_list {
+        display: none;
+    }
+
+    .header_button {
+        display: block;
+        float: right;
+        margin-right: 50px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        a {
+            width: 134px;
+            height: 36px;
+            text-align: center;
+            border-radius: 2px;
+            text-decoration: none;
+            font-size: 13px;
+            color: white;
+            background-color: deepskyblue;
+        }
+    }
+}
+

@@ -1,0 +1,116 @@
+/*Form*/
+
+.form {
+    position: absolute;
+    background-color: #F8F4F4;
+    width: 400px;
+    right: 50px;
+    top: 70px;
+    border: solid #D1CFCF 1px;
+}
+
+.form_icon {
+    width: 12px;
+    padding: 4px 10px 16px 10px;
+    float: left;
+}
+
+.form_content {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.user_box {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.user_count {
+    border: solid #B9B5B5 1px;
+    background-color: #E9E8E8;
+}
+
+.user_count::focus {
+    outline: none;
+}
+
+/*Date of birth*/
+
+.date input{
+    padding: 5px 12px;
+}
+
+/*Gender*/
+
+.gender_button {
+    background-color: #7C8931;
+    padding: 8px 15px 8px 12px;
+    float: left;
+    border-radius: 7px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.gender_button + .gender_button {
+    margin-left: 10px;
+}
+
+/*Payment Methood*/
+
+.payment-methood {
+    background-color: #7C8931;
+    border-radius: 7px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.payment-methood + .payment-methood {
+    margin-left: 5px;
+}
+
+.payment_label {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.visa {
+    width: 20px;
+    height: 10px;
+    padding-right: 5px;
+}
+
+.paypal {
+    width: 30px;
+    height: 10px;
+}
+
+.card_info {
+    margin: 0 auto;
+    margin-bottom: 12px;
+    margin-top: 20px;
+}
+
+.card_date {
+    padding-left: 32px;
+}
+
+/*Terms and Conditions*/
+
+.terms_text {
+    color: #757980;
+    font-size: 14px;
+}
+
+.sing_up {
+    background-color: #7C8931;
+    border-radius: 7px;
+    border: none;
+    font-size: 14px;
+    padding: 8px 15px 8px 12px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-left: 120px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}

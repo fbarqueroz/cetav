@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    background-color: #eee;
+}
+img{
+    width: 120px;
+    height: 120px;
+    margin: 0 0 0 42%;
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+p{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.header{
+    height: 86px;
+    width: 100%;
+    background-color: #E26D03;
+}
+
+.header_text {
+    float: left;
+    font-size: 21pt;
+    color: #eee;
+}
+
+.parque-img {
+    float: right;
+    padding-right: 50px;
+    margin-top: -10px;
+}
+
+.tabs {
+    margin: 0 auto;
+    width: 800px;
+}
+/*esta clase que peretenece al Ul que contiene los enlaces
+se le da un margin-bottom de -1px para que de el efecto de que son un mismo componente*/
+.tabs-lista {
+    list-style: none;
+    padding-left: 29%;
+    margin-bottom: -1px;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.tabs-menu {
+    float: left;
+    padding: 10px 35px;
+    color: grey;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #FFCA9F;
+    border: 1px solid #FFCA9F;
+}
+
+.div-tabs {
+    padding: 20px;
+    color: #eee;
+    background-color: #E26D03;
+    border: 1px solid grey;
+}
+
+.footer {
+    width: 100%;
+    background-color: #E26D03;
+}
+
+.footer-img {
+    float: right;
+    padding-right: 100px;
+}
+
+/*Clase que cambia el estilo de los links cuando es llamado por el Js*/
+.js-activo{
+    background-color: #E26D03;
+    border-bottom: 1px solid #E26D03;
+    color: #eee;
+}
+
+/*Clase para ocultar el contenido*/
+.js-contenido-oculto{
+    display: none;
+}

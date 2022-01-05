@@ -1,0 +1,37 @@
+.wrapper {
+  max-width: 800px;
+  background-color: #EAECED;
+  margin: 0 auto; }
+
+.wrapper_main {
+  max-width: 600px;
+  margin: 0 auto; }
+
+.container {
+  max-width: 600px;
+  margin: 0 auto; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+h2 {
+  color: #292C34;
+  font-size: 34px;
+  font-weight: lighter;
+  text-align: center; }
+
+h3 {
+  color: #F9F9F9;
+  font-size: 34px;
+  font-weight: lighter;
+  text-align: center; }
+
+p {
+  color: #888888;
+  font-size: 16px;
+  text-align: center; }

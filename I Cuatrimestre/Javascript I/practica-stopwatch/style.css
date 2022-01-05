@@ -1,0 +1,33 @@
+/* Fuente para el cronómetro */
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+body {
+  margin: 0;
+  background-color: #000;
+}
+
+h1 {
+  color: #0f0;
+  font-family: 'Major Mono Display', monospace;
+  font-size: 6rem;
+}
+
+.container {
+  display: flex;
+  padding: 6rem;
+}
+
+.buttons {
+  padding: 3rem 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  margin-bottom: 0.5rem;
+  background-color: #eee;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 4px;
+  padding: 0.25rem 1rem;
+}

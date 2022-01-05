@@ -1,0 +1,9 @@
+@media (max-width: 1023px) {
+  body {
+    background-color: lightgreen; }
+  #nav-list {
+    display: none; }
+  .nav_responsive {
+    float: right;
+    display: block;
+    padding-top: 50px; } }

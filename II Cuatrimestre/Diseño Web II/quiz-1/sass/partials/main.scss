@@ -1,0 +1,18 @@
+
+/*Main*/
+
+.box_img{
+	img {
+		display: block;
+    }
+
+    img {
+        max-width: 100%;
+        width: 22%;
+        float: left;
+    }
+}
+
+.box_img + .box_img{
+	margin-left: 2%;
+}

@@ -1,0 +1,22 @@
+//
+//Import modules --> sass
+//
+
+//Header
+@import 'partials/header';
+
+//Main
+@import 'partials/main';
+
+//Footer
+@import 'partials/footer';
+
+//Mixin
+@import 'config/mixin';
+
+//Global
+@import 'config/global';
+
+//@Media
+@import 'partials/tablet.scss';
+@import 'partials/movile.scss';

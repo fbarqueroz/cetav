@@ -1,0 +1,19 @@
+
+.footer {
+    background-color: teal;
+}
+
+.footer_content {
+    float: left;
+    padding-top: 30px;
+}
+
+.footer_img {
+    float: right;
+    list-style: none;
+    padding-top: 45px;
+
+    img + img {
+        margin-left: 5px;
+    }
+}

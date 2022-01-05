@@ -1,0 +1,49 @@
+//
+// Header
+//
+
+#logo{
+	float: left;
+	width: 19%;
+}
+
+#nav{
+	float: right;
+	width: 68%;
+	position: relative;
+}
+
+#link-email{
+	font-size: 1.083rem;
+	color: #999898;
+	text-decoration: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#nav-list{
+	list-style: none;
+	margin: 45px 0 0 0;
+    padding: 0;
+    
+    li {
+        float: left;
+    }
+    
+    li + li {
+        margin-left: 7%;
+    }
+    
+    a {
+        font-size: 1rem;
+        font-weight: bold;
+        color: #fe9b00;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+}
+
+.nav_responsive {
+    display: none;
+}
